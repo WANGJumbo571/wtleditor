@@ -1,0 +1,747 @@
+<!--Ribbon.xml-->
+
+<Application xmlns='http://schemas.microsoft.com/windows/2009/Ribbon'> 
+
+  <Application.Commands>
+    <Command Name="homeTab" Symbol="IDC_CMD_HOMETAB" Id="100" LabelTitle ="Home" />
+    <Command Name="viewTab"   Symbol="IDC_CMD_VIEWTAB"   Id="200" LabelTitle="View" />
+
+    <Command Name="pauseGroup" LabelTitle="暂停" Id="208"/>
+    <Command Name="fullscreenGroup" LabelTitle="全屏" Id="209"/>
+    <Command Name="fileGroup" Id ="210"       LabelTitle="文件"/>
+    <Command Name="editGroup" Id ="211"      LabelTitle="编辑"/>
+    <Command Name="chooseGroup" Id ="212" LabelTitle="选择"/>
+    <Command Name="imageGroup" Id ="213"  LabelTitle="图像"/>
+    <Command Name="layerGroup" Id ="214"    LabelTitle="图层"/>
+    <Command Name="toolGroup" Id ="215"     LabelTitle="工具"/>
+    <Command Name="HomeGroup" Id="216"   LabelTitle="关于"/>
+    <Command Name="PowerGroup" Id="217"   LabelTitle="退出"/>
+    <Command Name="layerSizeGroup" LabelTitle="图片大小" Id="218"/>
+    <Command Name="deleteGroup" LabelTitle="删除图层" Id="219"/>
+  
+    <Command Name="textRotationGroup" Symbol="IDC_TEXTROTATEGROUP" Id ="230"      LabelTitle="旋转"/>
+    <Command Name="GroupFont" Symbol="IDC_FONTGROUP" Id ="231"      LabelTitle="字体"/>
+    <Command Name="GroupSpace" Symbol="IDC_SPACE" Id="41003"            LabelTitle="间隔"/>
+    <Command Name="TabGroupText" Symbol="IDC_TabGroupText" Id="232" LabelTitle="搞定"/>
+    <Command Name="TabText" Symbol="IDC_TabText" Id="233"                     LabelTitle="文字区"/>
+    
+    <Command Name="TabGroupPen" Symbol="IDC_TabGroupPen" LabelTitle="画笔" Id="234"/>
+    <Command Name="TabPen" Symbol="IDC_TabPen" LabelTitle="画笔区" Id="235"/>
+    
+    <Command Name="TabGroupLayer" Symbol="IDC_TabGroupLayer" LabelTitle="Layer" Id="236"/>
+    <Command Name="TabLayer" Symbol="IDC_TabLayer" LabelTitle="图层区" Id="237"/>
+    <Command Name="TabGroupTextFormat" Symbol="IDC_TabTextFormat" LabelTitle="排版" Id="238"/>
+
+    <Command Name="zoomGroup" Symbol="IDC_ZOOMGROUP" LabelTitle="Zoom" Id ="220"/>
+     <Command Name="layerRotationGroup" LabelTitle="动画" Id="221"/>
+    <Command Name="layerOpacityGroup" LabelTitle="数值" Id="222"/>
+    <Command Name="layerChooseGroup" LabelTitle="选择" Id="223"/>
+    <Command Name="layerFileGroup" LabelTitle="图片文件" Id="224"/>
+    <Command Name="locateGroup" LabelTitle="放置图片" Id="225"/>
+    <Command Name="layerQuitGroup" LabelTitle="搞定" Id="226"/>
+
+    <Command Name="textGroup" Symbol="IDC_TEXTGROUP" LabelTitle="编辑" Id ="227"/>
+    <Command Name="newclipboard" Symbol="ID_WTL_MENU_NEW_CLIPBOARD" LabelTitle="new clipboard" Id="228">
+      <Command.LargeImages>
+        <Image Source="res\\new-clipboard.png"/>
+      </Command.LargeImages>
+    </Command>
+    <Command Name="translationGroup" Symbol="IDG_TRANSLATIONGROUP" LabelTitle="平移" Id="229"/>
+
+    <Command Name="GroupLayerComboBox" LabelTitle="layers" Id="239"/>
+    
+     <Command Name="Home" Symbol="HOME" LabelTitle="about" Id="242">
+      <Command.LargeImages>
+        <Image Source="res\\foot-print.png"/>
+      </Command.LargeImages>
+    </Command>
+    
+    <Command Name="Power" Symbol="POWER" LabelTitle="quit" Id="243">   
+      <Command.LargeImages>
+        <Image Source="res\\power-2.png"/>
+      </Command.LargeImages>
+    </Command>
+
+    <Command Name="pencilButton" Symbol="ID_WTL_MENU_PEN" Id="244" LabelTitle="pencil">
+      <Command.LargeImages>
+        <Image Source="res\\pen-2.png"/>
+      </Command.LargeImages>
+    </Command>
+    
+    <Command Name="Font" Symbol="ID_RIBBON_FONT" Id="245" LabelTitle="font"/>
+    
+    <Command Name="sizeButton" Id="260" LabelTitle="size">
+      <Command.LargeImages>
+        <Image Source="res\\size_32.png"/>
+      </Command.LargeImages>
+    </Command>
+
+    <Command Name="cropButton" Id="280" LabelTitle="crop">
+      <Command.LargeImages>
+        <Image Source="res\\crop-8.png"/>
+      </Command.LargeImages>
+    </Command>
+
+    <Command Name="rotateButton" Id="290" LabelTitle="rotate">
+      <Command.LargeImages>
+        <Image Source="res\\circle-2.png"/>
+      </Command.LargeImages>
+    </Command>
+
+    <Command Name="rotate90Clockwise" Id="293" LabelTitle="90度 CW">
+      <Command.LargeImages>
+        <Image Source="res\\rotate_right90_32.png"/>
+      </Command.LargeImages>
+    </Command>
+
+    <Command Name="rotate90CounterClockwise" Id="296" LabelTitle="90度 CCW">
+      <Command.LargeImages>
+        <Image Source="res\\rotate_left90_32.png"/>
+      </Command.LargeImages>
+    </Command>
+
+    <Command Name="locate" Symbol="ID_LOCATE" Id="297" LabelTitle="locate pic">
+      <Command.LargeImages>
+        <Image Source="res\\locate.png"/>
+      </Command.LargeImages>
+    </Command>
+    
+    <Command Name="zoomInButton" Symbol="ID_BUTTON_ZOOM_IN" Id="300" LabelTitle="zoom in">
+      <Command.LargeImages>
+        <Image Source="res\\zoomin_32.png"/>
+      </Command.LargeImages>
+    </Command>
+
+    <Command Name="zoomOutButton" Symbol="ID_BUTTON_ZOOM_OUT" Id="310" LabelTitle="zoom out">
+      <Command.LargeImages>
+        <Image Source="res\\zoomout_32.png"/>
+      </Command.LargeImages>
+    </Command>
+
+    <Command Name="Fit100Button" Symbol="ID_WTL_100" Id="320" LabelTitle="100%t">
+      <Command.LargeImages>
+        <Image Source="res\\preview_32.png"/>
+      </Command.LargeImages>
+    </Command>
+
+    <Command Name="colorPicker" Symbol="ID_STANDARD_COLORPICKER" Id="330" LabelTitle="color">
+      <Command.LargeImages>
+        <Image Source="res\\color_32.png"/>
+      </Command.LargeImages>
+    </Command>
+
+    <Command Name="MENU_TEXT" Symbol="ID_WTL_MENU_TEXT" Id="331" LabelTitle="text">
+      <Command.LargeImages>
+        <Image Source="res\\t.png"/>
+      </Command.LargeImages>
+    </Command>
+    
+    <Command Name="STOP_TEXT" Symbol="ID_WTL_STOP_TEXT" Id="332" LabelTitle="stop">
+      <Command.LargeImages>
+        <Image Source="res\\o.png"/>
+      </Command.LargeImages>
+    </Command>
+    
+    <Command Name="MENU_COPY" Symbol="ID_WTL_MENU_COPY" Id="333" LabelTitle="copy">
+      <Command.LargeImages>
+        <Image Source="res\\copy.png"/>
+      </Command.LargeImages>
+    </Command>
+
+    <Command Name="MENU_PASTE" Symbol="ID_WTL_MENU_PASTE" Id="335" LabelTitle="paste">
+      <Command.LargeImages>
+        <Image Source="res\\paste.png"/>
+      </Command.LargeImages>
+    </Command>
+
+    <Command Name="STOP_PEN" Symbol="ID_WTL_STOP_PEN" Id="336" LabelTitle="stop">
+      <Command.LargeImages>
+        <Image Source="res\\o.png"/>
+      </Command.LargeImages>
+    </Command>
+   
+     <Command Name="MENU_LAYER" Symbol="ID_WTL_MENU_LAYER" Id="337" LabelTitle="layer">
+      <Command.LargeImages>
+        <Image Source="res\\layer.png"/>
+      </Command.LargeImages>
+    </Command>
+
+    <Command Name="STOP_LAYER" Symbol="ID_WTL_STOP_LAYER" Id="338" LabelTitle="stop">
+      <Command.LargeImages>
+        <Image Source="res\\o.png"/>
+      </Command.LargeImages>
+    </Command>
+
+    <Command Name="OPEN_LAYER_FILE" Symbol="ID_WTL_OPEN_LAYER_FILE" Id="339" LabelTitle="pic">
+      <Command.LargeImages>
+        <Image Source="res\\open_32.png"/>
+      </Command.LargeImages>
+    </Command>
+
+    <Command Name="flipVertical" Id="340" LabelTitle="verical">
+      <Command.LargeImages>
+        <Image Source="res\\vflip_32.png"/>
+      </Command.LargeImages>
+    </Command>
+
+    <Command Name="B" Symbol="ID_WTL_B" Id="341" LabelTitle="中文">
+      <Command.LargeImages>
+        <Image Source="res\\book.png"/>
+      </Command.LargeImages>
+    </Command>
+
+    <Command Name="MENU_NEW" Symbol="ID_WTL_MENU_NEW" Id="342" LabelTitle="new">
+      <Command.LargeImages>
+        <Image Source="res\\new.png"/>
+      </Command.LargeImages>
+    </Command>
+
+    <Command Name="MENU_RESIZE" Symbol="ID_WTL_RESIZE_IMAGE" Id="343" LabelTitle="resize">
+      <Command.LargeImages>
+        <Image Source="res\\size-2.png"/>
+      </Command.LargeImages>
+    </Command>
+
+    <Command Name="T" Symbol="ID_WTL_T" Id="344" LabelTitle="center text">
+      <Command.LargeImages>
+        <Image Source="res\\t.png"/>
+      </Command.LargeImages>
+    </Command>
+
+    <Command Name="flipHorizontal" Id="350" LabelTitle="horizontal">
+      <Command.LargeImages>
+        <Image Source="res\\hflip_32.png"/>
+      </Command.LargeImages>
+    </Command>
+
+	  <Command Name="layer_rotate90Clockwise" Id="352" LabelTitle="90度 CW">
+      <Command.LargeImages>
+        <Image Source="res\\rotate_right90_32.png"/>
+      </Command.LargeImages>
+    </Command>
+
+    <Command Name="layer_rotate90CounterClockwise" Id="353" LabelTitle="90度 CCW">
+      <Command.LargeImages>
+        <Image Source="res\\rotate_left90_32.png"/>
+      </Command.LargeImages>
+    </Command>
+
+    <Command Name="layer_flipVertical" Id="354" LabelTitle="verical">
+      <Command.LargeImages>
+        <Image Source="res\\vflip_32.png"/>
+      </Command.LargeImages>
+    </Command>
+
+    <Command Name="layer_flipHorizontal" Id="355" LabelTitle="horizontal">
+      <Command.LargeImages>
+        <Image Source="res\\hflip_32.png"/>
+      </Command.LargeImages>
+    </Command>
+
+    <Command Name="layer_rotateButton" Id="356" LabelTitle="rotate">
+      <Command.LargeImages>
+        <Image Source="res\\circle.png"/>
+      </Command.LargeImages>
+    </Command>
+
+    <Command Name="F" Symbol="ID_WTL_F" Id="362" LabelTitle="text">
+      <Command.LargeImages>
+        <Image Source="res\\f.png"/>
+      </Command.LargeImages>
+    </Command>
+
+  <Command Name="R" Symbol="ID_WTL_R" Id="363" LabelTitle="right text">
+      <Command.LargeImages>
+        <Image Source="res\\r.png"/>
+      </Command.LargeImages>
+    </Command>
+
+    <Command Name="FITIN" Symbol="ID_WTL_FITIN" Id="364" LabelTitle="fit in">
+      <Command.LargeImages>
+        <Image Source="res\\fitin.png"/>
+      </Command.LargeImages>
+    </Command>
+
+    <Command Name="IDC_WTL_ROTATE_RIGHT">
+      <Command.LabelTitle>
+        <String Id ="31014">rotate right</String>
+      </Command.LabelTitle>
+      <Command.LargeImages>
+        <Image Id="32014" Source="res\\hflip_32.png"/>
+      </Command.LargeImages>
+    </Command>
+    
+    <!-- Declare Menus -->
+    <Command Name="fileMenu" Symbol="ID_FILE_MENU" Id="500" />
+
+    <Command Name="openFileMenu" Symbol="ID_ANNO_FILE_OPEN" LabelTitle="open" Id ="520">
+      <Command.LargeImages>
+        <Image Source="res\\open-file.png"/>
+      </Command.LargeImages>
+    </Command>
+
+    <Command Name="saveFileMenu" Symbol ="ID_ANNO_FILE_SAVE" Id="530" LabelTitle="save">
+      <Command.LargeImages>
+        <Image Source="res\\save_32.png"/>
+      </Command.LargeImages>
+    </Command>
+
+    <Command Name="saveAsFileMenu" Symbol="ID_ANNO_FILE_SAVE_AS" Id="5150" LabelTitle="save a copy as">
+      <Command.LargeImages>
+        <Image Source="res\\saveas_32.png"/>
+      </Command.LargeImages>
+    </Command>
+
+    <Command Name="exitMenu" Symbol="ID_ANNO_FILE_EXIT" Id="5160" LabelTitle="exit">
+      <Command.LargeImages>
+        <Image Source="res\\exit_32.png"/>
+      </Command.LargeImages>
+    </Command>
+    
+    <Command Name="cmdQat"/>
+    <Command Name="undoButton" Symbol="ID_BUTTON_UNDO">
+      <Command.LabelTitle>
+        <String Id ="400">Undo</String>
+      </Command.LabelTitle>
+      <Command.LargeImages>
+        <Image Id="401">res/undo_32.png</Image>
+      </Command.LargeImages>
+    </Command>
+
+    <Command Name="redoButton" Symbol="ID_BUTTON_REDO">
+      <Command.LabelTitle>
+        <String Id ="410">Redo</String>
+      </Command.LabelTitle>
+      <Command.LargeImages>
+        <Image Id="411">res/redo_32.png</Image>
+      </Command.LargeImages>
+    </Command>
+
+    <Command Name="picOpacity" Symbol="ID_PICOPACITY" LabelTitle="opacity:">
+      <Command.SmallImages>
+        <Image Id="4211">res/charspace.png</Image>
+      </Command.SmallImages>
+    </Command>
+
+    <Command Name="charSpace" Symbol="ID_CHAR_SPACE" LabelTitle="char space:">
+      <Command.SmallImages>
+        <Image Id="4212">res/charspace.png</Image>
+      </Command.SmallImages>
+    </Command>
+    
+      <Command Name="lineSpace" Symbol="ID_LINE_SPACE" LabelTitle="line space:">
+    <Command.SmallImages>
+      <Image Id="4213">res/linespace.png</Image>
+    </Command.SmallImages>
+    </Command>
+    <Command Name="charSize" Symbol="ID_CHAR_SIZE" LabelTitle="font size:">
+      <Command.SmallImages>
+        <Image Id="4215">res/charsize.png</Image>
+      </Command.SmallImages>
+    </Command>
+
+    <Command Name="ContextMap" Symbol="ID_CONTEXTMAP" Id="4217"/>
+
+    <Command Name="COPY_TEXT_TO_CLIPBOARD" Symbol="IDC_WTL_MENU_COPY_TEXT" Id="4218" LabelTitle="copy">
+      <Command.LargeImages>
+        <Image Source="res/copy.png"/>
+      </Command.LargeImages>
+    </Command>
+
+    <Command Name="PASTE_TEXT_FROM_CLIPBOARD" Symbol="IDC_WTL_MENU_PASTE_TEXT" Id="4219" LabelTitle="paste">
+      <Command.LargeImages>
+        <Image Source="res/paste.png"/>
+      </Command.LargeImages>
+    </Command>
+
+    <Command Name="CUT_TEXT_TO_CLIPBOARD" Symbol="IDC_WTL_MENU_CUT_TEXT" Id="4220" LabelTitle="cut">
+      <Command.LargeImages>
+        <Image Source="res/cut.png"/>
+      </Command.LargeImages>
+    </Command>
+
+    <Command Name="PIC_SIZE_BIGGER" Symbol="IDC_WTL_PIC_SIZE_BIGGER" Id="4221" LabelTitle="bigger">
+      <Command.LargeImages>
+        <Image Source="res/size-bigger.png"/>
+      </Command.LargeImages>
+    </Command>
+
+    <Command Name="PIC_SIZE_SMALLER" Symbol="IDC_WTL_PIC_SIZE_SMALLER" Id="4222" LabelTitle="smaller">
+      <Command.LargeImages>
+        <Image Source="res/size-smaller.png"/>
+      </Command.LargeImages>
+    </Command>
+
+    <Command Name="ROTATE_30" Symbol="ID_WTL_ROTATE_30" Id="4223" LabelTitle="rotate 30">
+      <Command.LargeImages>
+        <Image Source="res/rotate30.png"/>
+      </Command.LargeImages>
+    </Command>
+
+    <Command Name="delete" Symbol="ID_WTL_DELETE_LAYER" Id="4224" LabelTitle="delete">
+      <Command.LargeImages>
+        <Image Source="res/delete.png"/>
+      </Command.LargeImages>
+    </Command>
+
+    <Command Name="translation" Symbol="ID_WTL_TRANSLATION_LAYER" Id="4225" LabelTitle="past">
+      <Command.LargeImages>
+        <Image Source="res/translation.png"/>
+      </Command.LargeImages>
+    </Command>
+
+    <Command Name="fullscreen" Symbol="ID_WTL_FULLSCREEN" Id="4226" LabelTitle="fullscreen">
+      <Command.LargeImages>
+        <Image Source="res/fullscreen.png"/>
+      </Command.LargeImages>
+    </Command>
+
+    <Command Name="pause" Symbol="ID_WTL_PAUSE" Id="4227" LabelTitle="pause">
+      <Command.LargeImages>
+        <Image Source="res/pause.png"/>
+      </Command.LargeImages>
+    </Command>
+
+    <Command Name="rollup" Symbol="ID_WTL_ROLLUP" Id="4228" LabelTitle="rollup">
+      <Command.LargeImages>
+        <Image Source="res/rollup.png"/>
+      </Command.LargeImages>
+    </Command>
+
+    <Command Name="rollupGroup" LabelTitle="向上翻滚" Id="4229"/>
+
+    <Command Name="publish" Symbol="ID_WTL_PUBLISH" Id="4230" LabelTitle="publish">
+      <Command.LargeImages>
+        <Image Source="res/p.png"/>
+      </Command.LargeImages>
+    </Command>
+
+    <Command Name="publishGroup" LabelTitle="读入文件" Id="4231"/>
+
+    <Command Name="write_a" Symbol="ID_WTL_WRITE_OPACITY" Id="4232" LabelTitle="appear">
+      <Command.LargeImages>
+        <Image Source="res/write_a.png"/>
+      </Command.LargeImages>
+    </Command>
+
+      <Command Name="duration" Symbol="ID_DURATION" LabelTitle="duration:">
+      <Command.SmallImages>
+        <Image Id="4233">res/charspace.png</Image>
+      </Command.SmallImages>
+    </Command>
+	
+	  <Command Name="write_p" Symbol="ID_WTL_WRITE_PUNCH" Id="4234" LabelTitle="punch">
+		  <Command.LargeImages>
+			  <Image Source="res/write_p.png"/>
+		  </Command.LargeImages>
+	  </Command>
+
+	  <Command Name="openpicsfile" Symbol="ID_WTL_OPEN_PICS_FILE" LabelTitle="pics">
+		  <Command.SmallImages>
+			  <Image Id="4235">res/open_32.png</Image>
+		  </Command.SmallImages>
+	  </Command>
+
+	  <Command Name="locatepics" Symbol="ID_LOCATE_PICS" LabelTitle="locate pics">
+		  <Command.SmallImages>
+			  <Image Id="4236">res/locate.png</Image>
+		  </Command.SmallImages>
+	  </Command>
+
+	  <Command Name="picsGroup" LabelTitle="图片串" Id="4237"/>
+	  <Command Name="lyrGroup" LabelTitle="单图片" Id="4238"/>
+
+	  <Command Name="showpics" Symbol="ID_WTL_SHOW_PICS" LabelTitle="show pics">
+		  <Command.LargeImages>
+			  <Image Id="4239">res/box.png</Image>
+		  </Command.LargeImages>
+	  </Command>
+	  
+	  <Command Name="drawpoint" Symbol="ID_WTL_DRAW_POINT" Id="4240" LabelTitle="draw point">
+		  <Command.LargeImages>
+			  <Image Source="res/draw-point.png"/>
+		  </Command.LargeImages>
+	  </Command>
+
+  	  <Command Name="groupPicAnim" LabelTitle="图片动画" Id="4241"/>
+	  <Command Name="groupTextAnim" LabelTitle="文字动画" Id="4242"/>
+	  <Command Name="groupPointAnim" LabelTitle="渲染动画" Id="4243"/>
+	<Command Name="groupQuitAnim" LabelTitle="动画退出" Id="4244"/>
+  
+	  <Command Name="drawscroll" Symbol="ID_WTL_DRAW_SCROLL" Id="4245" LabelTitle="draw scroll">
+		  <Command.LargeImages>
+			  <Image Source="res/draw-scroll.png"/>
+		  </Command.LargeImages>
+	  </Command>
+	  
+	  <Command Name="writewave" Symbol="ID_WTL_WRITE_WAVE" Id="4246" LabelTitle="write wave">
+		  <Command.LargeImages>
+			  <Image Source="res/write_wave.png"/>
+		  </Command.LargeImages>
+	  </Command>
+
+	  <Command Name="picLayers" Symbol="ID_LAYERS" Id="4247" LabelTitle="layers">
+		  <Command.LargeImages>
+			  <Image Source="res/layers.png"/>
+		  </Command.LargeImages>
+	  </Command>
+	  
+	  <Command Name="vscroll" Symbol="ID_VSCROLL" Id="4248" LabelTitle="vscroll">
+		  <Command.LargeImages>
+			  <Image Source="res/draw-vscroll.png"/>
+		  </Command.LargeImages>
+	  </Command>
+
+	  <Command Name="locatesvg" Symbol="ID_LOCATE_SVG" LabelTitle="locate svg">
+		  <Command.SmallImages>
+			  <Image Id="4249">res/locate.png</Image>
+		  </Command.SmallImages>
+	  </Command>
+
+    <Command Name="opensvgfile" Symbol="ID_OPEN_SVG" Id="4250" LabelTitle="open svg">
+      <Command.SmallImages>
+        <Image Source="res/open_32.png"/>
+      </Command.SmallImages>
+    </Command>
+
+  </Application.Commands>
+  <!-- High level view of command relationship -->
+  <Application.Views>
+    <Ribbon>
+      <!-- Declare relationship among menus and elements -->
+      <Ribbon.ApplicationMenu>
+        <ApplicationMenu CommandName="fileMenu">
+          <!-- Most recently used items collection. -->
+          <!--ApplicationMenu.RecentItems-->
+          <!-- RecentItems CommandName="MRUList" MaxCount="8" /-->
+          <!-- /ApplicationMenu.RecentItems -->
+          <!-- Menu items collection. -->
+          <MenuGroup>
+            <Button CommandName="openFileMenu" />
+            <Button CommandName="saveFileMenu" />
+            <Button CommandName="saveAsFileMenu" />
+          </MenuGroup>
+          <MenuGroup>
+            <Button CommandName="exitMenu" />
+          </MenuGroup>
+        </ApplicationMenu>
+      </Ribbon.ApplicationMenu>
+      <!-- Declare relationship among tabs, groups and elements -->
+      <Ribbon.Tabs>
+        <Tab CommandName="homeTab">
+          <Tab.ScalingPolicy>
+            <ScalingPolicy>
+              <ScalingPolicy.IdealSizes>
+                <!-- This describes the maximum size of each group in the tab. -->
+					<Scale Group="editGroup" Size="Large" />
+              </ScalingPolicy.IdealSizes>
+              <Scale Group="editGroup" Size="Medium" />
+            </ScalingPolicy>
+          </Tab.ScalingPolicy>
+          <Group CommandName="fileGroup" SizeDefinition="FiveButtons">
+            <Button CommandName="newclipboard"/>
+            <Button CommandName="MENU_NEW"/>
+            <Button CommandName="openFileMenu"/>
+            <Button CommandName="saveFileMenu"/>
+            <Button CommandName="publish"/>
+          </Group>
+          <Group CommandName="editGroup" SizeDefinition="TwoButtons">
+            <ToggleButton CommandName="MENU_COPY"/>
+            <ToggleButton CommandName="MENU_PASTE"/>
+          </Group>
+          <Group CommandName="chooseGroup" SizeDefinition="OneButton">
+            <ToggleButton CommandName="cropButton" />
+          </Group>
+          <Group CommandName="imageGroup" SizeDefinition="OneButton">
+            <SplitButtonGallery CommandName="rotateButton" TextPosition="Hide" Type="Commands" ItemHeight="32" ItemWidth="32">
+              <SplitButtonGallery.MenuLayout>
+                <FlowMenuLayout Rows="4" Columns="2" Gripper="None"/>
+              </SplitButtonGallery.MenuLayout>
+              <Button CommandName="rotate90Clockwise"/>
+              <Button CommandName="rotate90CounterClockwise"/>
+              <Button CommandName="flipHorizontal"/>
+              <Button CommandName="flipVertical"/>
+            </SplitButtonGallery>
+          </Group>
+          <Group CommandName="layerGroup" SizeDefinition="OneButton">
+            <Button CommandName="MENU_LAYER"/>
+          </Group>
+          <Group CommandName="toolGroup" SizeDefinition="ThreeButtons">
+            <Button CommandName="pencilButton"/>
+            <Button CommandName="MENU_TEXT"/>
+            <Button CommandName="MENU_RESIZE"/>
+          </Group>
+          <Group CommandName="HomeGroup" SizeDefinition="OneButton">
+            <Button CommandName="Home"/>
+          </Group>        
+          <Group CommandName="PowerGroup" SizeDefinition="OneButton">
+            <Button CommandName="Power"/>
+          </Group>        
+        </Tab>
+        <Tab CommandName="viewTab">
+          <Tab.ScalingPolicy>
+            <ScalingPolicy>
+              <ScalingPolicy.IdealSizes>
+                <!-- This describes the maximum size of each group in the tab. -->
+                <Scale Group="zoomGroup" Size="Large" />
+              </ScalingPolicy.IdealSizes>
+              <!-- This describes the order and how the groups shrink when the window is resized. -->
+              <Scale Group="zoomGroup" Size="Medium" />
+            </ScalingPolicy>
+          </Tab.ScalingPolicy>
+          <Group CommandName="zoomGroup" SizeDefinition="FourButtons">
+            <Button CommandName="zoomInButton" />
+            <Button CommandName="zoomOutButton" />
+            <Button CommandName="FITIN" />
+            <Button CommandName="Fit100Button" />
+          </Group>
+        </Tab>
+        <Tab CommandName="TabText" ApplicationModes="1">
+          <Group CommandName="TabGroupText" ApplicationModes="1" SizeDefinition="OneButton">
+            <!--<Button CommandName="MENU_TEXT"/> -->
+            <Button CommandName="STOP_TEXT"/>
+          </Group>
+          <Group CommandName="TabGroupTextFormat" ApplicationModes="1" SizeDefinition="FourButtons">
+            <ToggleButton CommandName="F"/>
+            <ToggleButton CommandName="R"/>
+            <ToggleButton CommandName="T"/>
+            <ToggleButton CommandName="B"/>
+          </Group>
+          <Group CommandName="GroupFont" ApplicationModes="1" SizeDefinition="OneFontControl">
+            <FontControl CommandName="Font"
+                                  FontType="FontWithColor"
+                                  ShowTrueTypeOnly="false"
+                                  ShowVerticalFonts="false"/>
+          </Group>
+          <Group CommandName="GroupSpace" ApplicationModes="1">
+            <Spinner CommandName="charSpace" />
+            <Spinner CommandName="lineSpace" />
+            <!-- <Spinner CommandName="charSize" /> -->
+          </Group>
+        </Tab>
+        <Tab CommandName="TabPen" ApplicationModes="2">
+          <Group CommandName="TabGroupPen" ApplicationModes="2" SizeDefinition="ThreeButtons">
+            <!--<Button CommandName="pencilButton"/> -->
+            <Button CommandName="STOP_PEN"/>
+            <DropDownColorPicker CommandName="colorPicker" 
+                                ColorTemplate="StandardColors" 
+                                IsNoColorButtonVisible="false"/>
+            <SplitButtonGallery CommandName="sizeButton" 
+                                TextPosition="Hide" 
+                                Type="Commands" 
+                                ItemHeight="32" 
+                                ItemWidth="128" 
+                                HasLargeItems="true">
+              <SplitButtonGallery.MenuLayout>
+                <FlowMenuLayout Rows="1" Columns="2" Gripper="None"/>
+              </SplitButtonGallery.MenuLayout>
+              <Button CommandName="IDC_WTL_ROTATE_RIGHT"/>
+            </SplitButtonGallery>
+          </Group>
+        </Tab>
+        <Tab CommandName="TabLayer" ApplicationModes="3">
+			<Tab.ScalingPolicy>
+				<ScalingPolicy>
+					<ScalingPolicy.IdealSizes>
+						<!-- This describes the maximum size of each group in the tab. -->
+						<Scale Group="picsGroup" Size="Medium"/>
+						<Scale Group="lyrGroup" Size="Medium"/>
+					</ScalingPolicy.IdealSizes>
+				</ScalingPolicy>
+			</Tab.ScalingPolicy>
+			<Group CommandName="layerQuitGroup" ApplicationModes="3" SizeDefinition="OneButton">
+            <Button CommandName="STOP_LAYER"/>
+          </Group>
+          <Group CommandName="lyrGroup" ApplicationModes="3" SizeDefinition="ThreeButtons">
+            <Button CommandName="OPEN_LAYER_FILE"/>
+            <Button CommandName="locate"/>
+				<Button CommandName="openpicsfile"/>
+          </Group>
+			<Group CommandName="picsGroup" ApplicationModes="3" SizeDefinition="ThreeButtons">
+				<Button CommandName="opensvgfile"/>
+				<Button CommandName="locatesvg"/>
+				<Button CommandName="locatepics"/>
+			</Group>
+			<Group CommandName="layerChooseGroup" ApplicationModes="3" SizeDefinition="OneButton">
+            <Button CommandName="picLayers"/>
+          </Group>
+          <Group CommandName="layerOpacityGroup" ApplicationModes="3">
+            <Spinner CommandName="picOpacity"/>
+		    <Spinner CommandName="duration"/>
+          </Group>
+          <Group CommandName="deleteGroup" ApplicationModes="3" SizeDefinition="OneButton">
+            <Button CommandName="delete"/>
+          </Group>
+          <Group CommandName="layerRotationGroup" ApplicationModes="3" SizeDefinition="OneButton">
+            <SplitButtonGallery CommandName="layer_rotateButton" TextPosition="Hide" Type="Commands" ItemHeight="32" ItemWidth="32">
+              <SplitButtonGallery.MenuLayout>
+                <FlowMenuLayout Rows="5" Columns="2" Gripper="None"/>
+              </SplitButtonGallery.MenuLayout>
+              <Button CommandName="ROTATE_30"/>
+              <Button CommandName="layer_rotate90Clockwise"/>
+              <Button CommandName="layer_rotate90CounterClockwise"/>
+              <Button CommandName="layer_flipHorizontal"/>
+              <Button CommandName="layer_flipVertical"/>
+            </SplitButtonGallery>
+		</Group>
+          <Group CommandName="groupPicAnim" ApplicationModes="3" SizeDefinition="TwoButtons">
+            <Button CommandName="translation"/>
+			<Button CommandName="showpics"/>
+			</Group>
+			<Group CommandName="groupTextAnim" ApplicationModes="3" SizeDefinition="FourButtons">
+			  <Button CommandName="rollup"/>
+			<Button CommandName="write_a"/>
+			<Button CommandName="write_p"/>
+			<Button CommandName="writewave"/>
+			</Group>
+			<Group CommandName="groupPointAnim" ApplicationModes="3" SizeDefinition="ThreeButtons">
+			  <Button CommandName="drawpoint"/>
+			  <Button CommandName="drawscroll"/>
+			  <Button CommandName="vscroll"/>
+			</Group>
+			<Group CommandName="groupQuitAnim" ApplicationModes="3" SizeDefinition="OneButton">
+            <Button CommandName="pause"/>
+          </Group>
+          <Group CommandName="fullscreenGroup" ApplicationModes="3" SizeDefinition="OneButton">
+            <Button CommandName="fullscreen"/>
+          </Group>
+          <Group CommandName="layerSizeGroup" ApplicationModes="3" SizeDefinition="OneButton">
+            <SplitButtonGallery CommandName="PIC_SIZE_BIGGER" TextPosition="Hide" Type="Commands" ItemHeight="32" ItemWidth="32">
+              <SplitButtonGallery.MenuLayout>
+                <FlowMenuLayout Rows="1" Columns="2" Gripper="None"/>
+              </SplitButtonGallery.MenuLayout>
+              <Button CommandName="PIC_SIZE_SMALLER"/>
+            </SplitButtonGallery>
+          </Group>
+        </Tab>
+      </Ribbon.Tabs>
+      <Ribbon.QuickAccessToolbar>
+        <QuickAccessToolbar CommandName="cmdQat">
+          <QuickAccessToolbar.ApplicationDefaults>
+            <Button CommandName="saveFileMenu" ApplicationDefaults.IsChecked="true"/>
+            <Button CommandName="undoButton" ApplicationDefaults.IsChecked="true"/>
+            <Button CommandName="redoButton" ApplicationDefaults.IsChecked="true"/>
+          </QuickAccessToolbar.ApplicationDefaults>
+        </QuickAccessToolbar>
+      </Ribbon.QuickAccessToolbar>
+
+    </Ribbon>
+    <ContextPopup>
+      <ContextPopup.ContextMenus>
+        <ContextMenu Name="ContextMenu">
+          <MenuGroup>
+            <Button CommandName="COPY_TEXT_TO_CLIPBOARD" />
+            <Button CommandName="CUT_TEXT_TO_CLIPBOARD" />
+            <Button CommandName="PASTE_TEXT_FROM_CLIPBOARD" />
+          </MenuGroup>
+        </ContextMenu>
+      </ContextPopup.ContextMenus>
+
+      <ContextPopup.ContextMaps>
+        <ContextMap CommandName="ContextMap" ContextMenu="ContextMenu"/>
+      </ContextPopup.ContextMaps>
+
+    </ContextPopup>
+
+  </Application.Views>
+</Application>

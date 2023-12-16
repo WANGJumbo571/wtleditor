@@ -1,0 +1,480 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="wtleditor.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="aboutdlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimationUtility.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimationUtility2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="BasicTimer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="comhelpers.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ComPtr.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Direct2DUtility.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawGeometryOperation.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FileTypes.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="framework.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="HTimer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Image.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageClippingOperation.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageEditor.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageLayerOperation.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageOperation.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ImagePicsOperation.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageTextOperation.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageTransformationOperation.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="included.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="JumpList.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LayerAnimation.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="mainfrm.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PointAnimation.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="postview.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="resizedlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Ribbon.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ribboncombo.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RippleEffect.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sharedobject.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ShellFileDialog.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ShellItemsLoader.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleImage.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ThisApp.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tinyxml2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageRenderer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CBRotatablePtr.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="HScrollEffect.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="external.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ShellMgr.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="combdlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="VScrollEffect.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageSVGOperation.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="csliderbar.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="wtleditor.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimationUtility.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimationUtility2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BasicTimer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Common.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Direct2DUtility.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawGeometryOperation.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageClippingOperation.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageEditor.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageLayerOperation.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ImagePicsOperation.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageTextOperation.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageTransformationOperation.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="JumpList.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LayerAnimation.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="mainfrm.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PointAnimation.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="postview.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="resizedlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RippleEffect.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ShellFileDialog.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ShellItemsLoader.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SimpleImage.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ThisApp.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyxml2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageRenderer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="HScrollEffect.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="external.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ShellMgr.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="aboutdlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="combdlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="VScrollEffect.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageSVGOperation.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="wtleditor.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="Ribbon.xml">
+      <Filter>资源文件</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="RippleEffect.hlsl">
+      <Filter>源文件</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="HScrollEffect.hlsl">
+      <Filter>源文件</Filter>
+    </FxCompile>
+    <FxCompile Include="VScrollEffect.hlsl">
+      <Filter>源文件</Filter>
+    </FxCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\Finder.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Finder.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\new-clipboard.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\foot-print.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\power-2.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\pen-2.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\size_32.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\crop-8.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\circle-2.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\rotate_right90_32.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\rotate_left90_32.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\locate.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\zoomin_32.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\zoomout_32.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\preview_32.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\color_32.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\t.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\o.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\copy.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\paste.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\layer.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\open_32.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\vflip_32.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\book.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\new.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\size-2.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\hflip_32.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\circle.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\f.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\r.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\fitin.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\open-file.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\save_32.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\saveas_32.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\exit_32.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\undo_32.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\redo_32.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\charspace.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\linespace.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\charsize.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\cut.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\size-bigger.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\size-smaller.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\rotate30.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\delete.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\translation.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\fullscreen.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\pause.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\rollup.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\p.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\write_a.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\write_p.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\box.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\draw-point.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\draw-scroll.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\write_wave.png">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\center.cur">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\edit.cur">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\right.cur">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\left.cur">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\bottom.cur">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\bottom-right.cur">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+</Project>

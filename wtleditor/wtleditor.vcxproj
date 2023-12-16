@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>17.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{813973e0-2e7a-406d-acea-5d9067aa5b78}</ProjectGuid>
+    <RootNamespace>wtleditor</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <IncludePath>J:\stem\wtl10\Include;$(IncludePath)</IncludePath>
+    <CustomBuildBeforeTargets>ClCompile</CustomBuildBeforeTargets>
+    <ExternalIncludePath>$(ExternalIncludePath)</ExternalIncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <CustomBuildBeforeTargets>ClCompile</CustomBuildBeforeTargets>
+    <IncludePath>J:\stem\wtl10\Include;$(IncludePath)</IncludePath>
+    <ExternalIncludePath>$(ExternalIncludePath)</ExternalIncludePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_UNICODE;UNICODE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>Default</ConformanceMode>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <AdditionalOptions>/D "_CRT_SECURE_NO_WARNINGS" %(AdditionalOptions)</AdditionalOptions>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>structuredquery.lib;comctl32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <CustomBuildStep>
+      <Command>:: fxc.exe needs the path to d2d1effecthelpers.hlsli (/I parameter).
+:: Parse the Visual Studio macro into a form usable by fxc.exe.
+set INCLUDEPATHS="$(WindowsSDK_IncludePath)"
+fxc /T ps_4_0_level_9_1 RippleEffect.hlsl /D D2D_FULL_SHADER /D D2D_ENTRY=main /E main /setprivate "$(ProjectDir)RippleEffect.fxlib" /Fo "$(OutDir)RippleEffect.cso" /nologo /I %INCLUDEPATHS%</Command>
+    </CustomBuildStep>
+    <CustomBuildStep>
+      <Outputs>$(OutDir)RippleEffect.cso;%(Outputs)</Outputs>
+    </CustomBuildStep>
+    <CustomBuildStep>
+      <Inputs>RippleEffect.hlsl;%(Inputs)</Inputs>
+    </CustomBuildStep>
+    <CustomBuildStep>
+      <TreatOutputAsContent>true</TreatOutputAsContent>
+      <Message>Generate a linking compatible pixel shader</Message>
+    </CustomBuildStep>
+    <Manifest>
+      <AdditionalManifestFiles>this.manifest %(AdditionalManifestFiles)</AdditionalManifestFiles>
+    </Manifest>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <IntrinsicFunctions>false</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_UNICODE;UNICODE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>Default</ConformanceMode>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <AdditionalOptions>/D "_CRT_SECURE_NO_WARNINGS" %(AdditionalOptions)</AdditionalOptions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>structuredquery.lib;comctl32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <Manifest>
+      <AdditionalManifestFiles>this.manifest %(AdditionalManifestFiles)</AdditionalManifestFiles>
+    </Manifest>
+    <CustomBuildStep>
+      <Command>:: fxc.exe needs the path to d2d1effecthelpers.hlsli (/I parameter).
+:: Parse the Visual Studio macro into a form usable by fxc.exe.
+set INCLUDEPATHS="$(WindowsSDK_IncludePath)"
+fxc /T ps_4_0_level_9_1 RippleEffect.hlsl /D D2D_FULL_SHADER /D D2D_ENTRY=main /E main /setprivate "$(ProjectDir)RippleEffect.fxlib" /Fo "$(OutDir)RippleEffect.cso" /nologo /I %INCLUDEPATHS%</Command>
+    </CustomBuildStep>
+    <CustomBuildStep>
+      <Message>Generate a linking compatible pixel shader</Message>
+    </CustomBuildStep>
+    <CustomBuildStep>
+      <Outputs>$(OutDir)RippleEffect.cso;%(Outputs)</Outputs>
+    </CustomBuildStep>
+    <CustomBuildStep>
+      <Inputs>RippleEffect.hlsl;%(Inputs)</Inputs>
+    </CustomBuildStep>
+    <CustomBuildStep>
+      <TreatOutputAsContent>true</TreatOutputAsContent>
+    </CustomBuildStep>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="aboutdlg.h" />
+    <ClInclude Include="Animation.h" />
+    <ClInclude Include="AnimationUtility.h" />
+    <ClInclude Include="AnimationUtility2.h" />
+    <ClInclude Include="BasicTimer.h" />
+    <ClInclude Include="CBRotatablePtr.h" />
+    <ClInclude Include="combdlg.h" />
+    <ClInclude Include="comhelpers.h" />
+    <ClInclude Include="ComPtr.h" />
+    <ClInclude Include="csliderbar.h" />
+    <ClInclude Include="Direct2DUtility.h" />
+    <ClInclude Include="DrawGeometryOperation.h" />
+    <ClInclude Include="external.h" />
+    <ClInclude Include="FileTypes.h" />
+    <ClInclude Include="framework.h" />
+    <ClInclude Include="HTimer.h" />
+    <ClInclude Include="Image.h" />
+    <ClInclude Include="ImageClippingOperation.h" />
+    <ClInclude Include="ImageEditor.h" />
+    <ClInclude Include="ImageLayerOperation.h" />
+    <ClInclude Include="ImageOperation.h" />
+    <ClInclude Include="ImagePicsOperation.h" />
+    <ClInclude Include="ImageRenderer.h" />
+    <ClInclude Include="ImageSVGOperation.h" />
+    <ClInclude Include="ImageTextOperation.h" />
+    <ClInclude Include="ImageTransformationOperation.h" />
+    <ClInclude Include="included.h" />
+    <ClInclude Include="JumpList.h" />
+    <ClInclude Include="LayerAnimation.h" />
+    <ClInclude Include="mainfrm.h" />
+    <ClInclude Include="PointAnimation.h" />
+    <ClInclude Include="postview.h" />
+    <ClInclude Include="resizedlg.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="Ribbon.h" />
+    <ClInclude Include="ribboncombo.h" />
+    <ClInclude Include="RippleEffect.h" />
+    <ClInclude Include="HScrollEffect.h" />
+    <ClInclude Include="sharedobject.h" />
+    <ClInclude Include="ShellFileDialog.h" />
+    <ClInclude Include="ShellItemsLoader.h" />
+    <ClInclude Include="ShellMgr.h" />
+    <ClInclude Include="SimpleImage.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="ThisApp.h" />
+    <ClInclude Include="tinyxml2.h" />
+    <ClInclude Include="VScrollEffect.h" />
+    <ClInclude Include="wtleditor.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="aboutdlg.cpp" />
+    <ClCompile Include="AnimationUtility.cpp" />
+    <ClCompile Include="AnimationUtility2.cpp" />
+    <ClCompile Include="BasicTimer.cpp" />
+    <ClCompile Include="combdlg.cpp" />
+    <ClCompile Include="Common.cpp" />
+    <ClCompile Include="Direct2DUtility.cpp" />
+    <ClCompile Include="DrawGeometryOperation.cpp" />
+    <ClCompile Include="external.cpp" />
+    <ClCompile Include="ImageClippingOperation.cpp" />
+    <ClCompile Include="ImageEditor.cpp" />
+    <ClCompile Include="ImageLayerOperation.cpp" />
+    <ClCompile Include="ImagePicsOperation.cpp" />
+    <ClCompile Include="ImageRenderer.cpp" />
+    <ClCompile Include="ImageSVGOperation.cpp" />
+    <ClCompile Include="ImageTextOperation.cpp" />
+    <ClCompile Include="ImageTransformationOperation.cpp" />
+    <ClCompile Include="JumpList.cpp" />
+    <ClCompile Include="LayerAnimation.cpp" />
+    <ClCompile Include="mainfrm.cpp" />
+    <ClCompile Include="PointAnimation.cpp" />
+    <ClCompile Include="postview.cpp" />
+    <ClCompile Include="resizedlg.cpp" />
+    <ClCompile Include="RippleEffect.cpp" />
+    <ClCompile Include="HScrollEffect.cpp" />
+    <ClCompile Include="ShellFileDialog.cpp" />
+    <ClCompile Include="ShellItemsLoader.cpp" />
+    <ClCompile Include="ShellMgr.cpp" />
+    <ClCompile Include="SimpleImage.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="ThisApp.cpp" />
+    <ClCompile Include="tinyxml2.cpp" />
+    <ClCompile Include="VScrollEffect.cpp" />
+    <ClCompile Include="wtleditor.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="wtleditor.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="Ribbon.xml">
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">uicc Ribbon.xml Ribbon.bml /header:Ribbon.h /res:Ribbon.rc</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Ribbon.bml;Ribbon.rc;Ribbon.h;%(Outputs)</Outputs>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="RippleEffect.hlsl">
+      <FileType>Document</FileType>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="HScrollEffect.hlsl">
+      <EntryPointName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">GeometryVS</EntryPointName>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Vertex</ShaderType>
+      <EntryPointName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">GeometryVS</EntryPointName>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Vertex</ShaderType>
+    </FxCompile>
+    <FxCompile Include="VScrollEffect.hlsl">
+      <EntryPointName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">GeometryVS</EntryPointName>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Vertex</ShaderType>
+      <EntryPointName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">GeometryVS</EntryPointName>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Vertex</ShaderType>
+    </FxCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\book.png" />
+    <Image Include="res\box.png" />
+    <Image Include="res\charsize.png" />
+    <Image Include="res\charspace.png" />
+    <Image Include="res\circle-2.png" />
+    <Image Include="res\circle.png" />
+    <Image Include="res\color_32.png" />
+    <Image Include="res\copy.png" />
+    <Image Include="res\crop-8.png" />
+    <Image Include="res\cut.png" />
+    <Image Include="res\delete.png" />
+    <Image Include="res\draw-point.png" />
+    <Image Include="res\draw-scroll.png" />
+    <Image Include="res\exit_32.png" />
+    <Image Include="res\f.png" />
+    <Image Include="res\Finder.ico" />
+    <Image Include="res\Finder.png" />
+    <Image Include="res\fitin.png" />
+    <Image Include="res\foot-print.png" />
+    <Image Include="res\fullscreen.png" />
+    <Image Include="res\hflip_32.png" />
+    <Image Include="res\layer.png" />
+    <Image Include="res\linespace.png" />
+    <Image Include="res\locate.png" />
+    <Image Include="res\new-clipboard.png" />
+    <Image Include="res\new.png" />
+    <Image Include="res\o.png" />
+    <Image Include="res\open-file.png" />
+    <Image Include="res\open_32.png" />
+    <Image Include="res\p.png" />
+    <Image Include="res\paste.png" />
+    <Image Include="res\pause.png" />
+    <Image Include="res\pen-2.png" />
+    <Image Include="res\power-2.png" />
+    <Image Include="res\preview_32.png" />
+    <Image Include="res\r.png" />
+    <Image Include="res\redo_32.png" />
+    <Image Include="res\rollup.png" />
+    <Image Include="res\rotate30.png" />
+    <Image Include="res\rotate_left90_32.png" />
+    <Image Include="res\rotate_right90_32.png" />
+    <Image Include="res\saveas_32.png" />
+    <Image Include="res\save_32.png" />
+    <Image Include="res\size-2.png" />
+    <Image Include="res\size-bigger.png" />
+    <Image Include="res\size-smaller.png" />
+    <Image Include="res\size_32.png" />
+    <Image Include="res\t.png" />
+    <Image Include="res\translation.png" />
+    <Image Include="res\undo_32.png" />
+    <Image Include="res\vflip_32.png" />
+    <Image Include="res\write_a.png" />
+    <Image Include="res\write_p.png" />
+    <Image Include="res\write_wave.png" />
+    <Image Include="res\zoomin_32.png" />
+    <Image Include="res\zoomout_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\bottom-right.cur" />
+    <None Include="res\bottom.cur" />
+    <None Include="res\center.cur" />
+    <None Include="res\edit.cur" />
+    <None Include="res\left.cur" />
+    <None Include="res\right.cur" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

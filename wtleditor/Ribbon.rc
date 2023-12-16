@@ -1,0 +1,655 @@
+// ******************************************************************************
+// * This is an automatically generated file containing the ribbon resource for *
+// * your application.                                                          *
+// ******************************************************************************
+
+#include ".\Ribbon.h"
+
+STRINGTABLE 
+BEGIN
+    IDC_CMD_HOMETAB_LabelTitle_RESID L"Home" /* LabelTitle IDC_CMD_HOMETAB_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    IDC_CMD_VIEWTAB_LabelTitle_RESID L"View" /* LabelTitle IDC_CMD_VIEWTAB_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    pauseGroup_LabelTitle_RESID L"\x6682\x505c" /* LabelTitle pauseGroup_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    fullscreenGroup_LabelTitle_RESID L"\x5168\x5c4f" /* LabelTitle fullscreenGroup_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    fileGroup_LabelTitle_RESID L"\x6587\x4ef6" /* LabelTitle fileGroup_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    editGroup_LabelTitle_RESID L"\x7f16\x8f91" /* LabelTitle editGroup_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    chooseGroup_LabelTitle_RESID L"\x9009\x62e9" /* LabelTitle chooseGroup_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    imageGroup_LabelTitle_RESID L"\x56fe\x50cf" /* LabelTitle imageGroup_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    layerGroup_LabelTitle_RESID L"\x56fe\x5c42" /* LabelTitle layerGroup_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    toolGroup_LabelTitle_RESID L"\x5de5\x5177" /* LabelTitle toolGroup_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    HomeGroup_LabelTitle_RESID L"\x5173\x4e8e" /* LabelTitle HomeGroup_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    PowerGroup_LabelTitle_RESID L"\x9000\x51fa" /* LabelTitle PowerGroup_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    layerSizeGroup_LabelTitle_RESID L"\x56fe\x7247\x5927\x5c0f" /* LabelTitle layerSizeGroup_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    deleteGroup_LabelTitle_RESID L"\x5220\x9664\x56fe\x5c42" /* LabelTitle deleteGroup_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    IDC_TEXTROTATEGROUP_LabelTitle_RESID L"\x65cb\x8f6c" /* LabelTitle IDC_TEXTROTATEGROUP_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    IDC_FONTGROUP_LabelTitle_RESID L"\x5b57\x4f53" /* LabelTitle IDC_FONTGROUP_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    IDC_SPACE_LabelTitle_RESID L"\x95f4\x9694" /* LabelTitle IDC_SPACE_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    IDC_TabGroupText_LabelTitle_RESID L"\x641e\x5b9a" /* LabelTitle IDC_TabGroupText_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    IDC_TabText_LabelTitle_RESID L"\x6587\x5b57\x533a" /* LabelTitle IDC_TabText_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    IDC_TabGroupPen_LabelTitle_RESID L"\x753b\x7b14" /* LabelTitle IDC_TabGroupPen_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    IDC_TabPen_LabelTitle_RESID L"\x753b\x7b14\x533a" /* LabelTitle IDC_TabPen_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    IDC_TabGroupLayer_LabelTitle_RESID L"Layer" /* LabelTitle IDC_TabGroupLayer_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    IDC_TabLayer_LabelTitle_RESID L"\x56fe\x5c42\x533a" /* LabelTitle IDC_TabLayer_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    IDC_TabTextFormat_LabelTitle_RESID L"\x6392\x7248" /* LabelTitle IDC_TabTextFormat_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    IDC_ZOOMGROUP_LabelTitle_RESID L"Zoom" /* LabelTitle IDC_ZOOMGROUP_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    layerRotationGroup_LabelTitle_RESID L"\x52a8\x753b" /* LabelTitle layerRotationGroup_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    layerOpacityGroup_LabelTitle_RESID L"\x6570\x503c" /* LabelTitle layerOpacityGroup_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    layerChooseGroup_LabelTitle_RESID L"\x9009\x62e9" /* LabelTitle layerChooseGroup_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    layerFileGroup_LabelTitle_RESID L"\x56fe\x7247\x6587\x4ef6" /* LabelTitle layerFileGroup_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    locateGroup_LabelTitle_RESID L"\x653e\x7f6e\x56fe\x7247" /* LabelTitle locateGroup_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    layerQuitGroup_LabelTitle_RESID L"\x641e\x5b9a" /* LabelTitle layerQuitGroup_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    IDC_TEXTGROUP_LabelTitle_RESID L"\x7f16\x8f91" /* LabelTitle IDC_TEXTGROUP_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    ID_WTL_MENU_NEW_CLIPBOARD_LabelTitle_RESID L"new clipboard" /* LabelTitle ID_WTL_MENU_NEW_CLIPBOARD_LabelTitle_RESID: (null) */
+END
+
+ID_WTL_MENU_NEW_CLIPBOARD_LargeImages_RESID    IMAGE    "res\\new-clipboard.png" /* LargeImages ID_WTL_MENU_NEW_CLIPBOARD_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    IDG_TRANSLATIONGROUP_LabelTitle_RESID L"\x5e73\x79fb" /* LabelTitle IDG_TRANSLATIONGROUP_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    GroupLayerComboBox_LabelTitle_RESID L"layers" /* LabelTitle GroupLayerComboBox_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    HOME_LabelTitle_RESID L"about" /* LabelTitle HOME_LabelTitle_RESID: (null) */
+END
+
+HOME_LargeImages_RESID    IMAGE    "res\\foot-print.png" /* LargeImages HOME_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    POWER_LabelTitle_RESID L"quit" /* LabelTitle POWER_LabelTitle_RESID: (null) */
+END
+
+POWER_LargeImages_RESID    IMAGE    "res\\power-2.png" /* LargeImages POWER_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_WTL_MENU_PEN_LabelTitle_RESID L"pencil" /* LabelTitle ID_WTL_MENU_PEN_LabelTitle_RESID: (null) */
+END
+
+ID_WTL_MENU_PEN_LargeImages_RESID    IMAGE    "res\\pen-2.png" /* LargeImages ID_WTL_MENU_PEN_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_RIBBON_FONT_LabelTitle_RESID L"font" /* LabelTitle ID_RIBBON_FONT_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    sizeButton_LabelTitle_RESID L"size" /* LabelTitle sizeButton_LabelTitle_RESID: (null) */
+END
+
+sizeButton_LargeImages_RESID    IMAGE    "res\\size_32.png" /* LargeImages sizeButton_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    cropButton_LabelTitle_RESID L"crop" /* LabelTitle cropButton_LabelTitle_RESID: (null) */
+END
+
+cropButton_LargeImages_RESID    IMAGE    "res\\crop-8.png" /* LargeImages cropButton_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    rotateButton_LabelTitle_RESID L"rotate" /* LabelTitle rotateButton_LabelTitle_RESID: (null) */
+END
+
+rotateButton_LargeImages_RESID    IMAGE    "res\\circle-2.png" /* LargeImages rotateButton_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    rotate90Clockwise_LabelTitle_RESID L"90\x5ea6 CW" /* LabelTitle rotate90Clockwise_LabelTitle_RESID: (null) */
+END
+
+rotate90Clockwise_LargeImages_RESID    IMAGE    "res\\rotate_right90_32.png" /* LargeImages rotate90Clockwise_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    rotate90CounterClockwise_LabelTitle_RESID L"90\x5ea6 CCW" /* LabelTitle rotate90CounterClockwise_LabelTitle_RESID: (null) */
+END
+
+rotate90CounterClockwise_LargeImages_RESID    IMAGE    "res\\rotate_left90_32.png" /* LargeImages rotate90CounterClockwise_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_LOCATE_LabelTitle_RESID L"locate pic" /* LabelTitle ID_LOCATE_LabelTitle_RESID: (null) */
+END
+
+ID_LOCATE_LargeImages_RESID    IMAGE    "res\\locate.png" /* LargeImages ID_LOCATE_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_BUTTON_ZOOM_IN_LabelTitle_RESID L"zoom in" /* LabelTitle ID_BUTTON_ZOOM_IN_LabelTitle_RESID: (null) */
+END
+
+ID_BUTTON_ZOOM_IN_LargeImages_RESID    IMAGE    "res\\zoomin_32.png" /* LargeImages ID_BUTTON_ZOOM_IN_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_BUTTON_ZOOM_OUT_LabelTitle_RESID L"zoom out" /* LabelTitle ID_BUTTON_ZOOM_OUT_LabelTitle_RESID: (null) */
+END
+
+ID_BUTTON_ZOOM_OUT_LargeImages_RESID    IMAGE    "res\\zoomout_32.png" /* LargeImages ID_BUTTON_ZOOM_OUT_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_WTL_100_LabelTitle_RESID L"100%t" /* LabelTitle ID_WTL_100_LabelTitle_RESID: (null) */
+END
+
+ID_WTL_100_LargeImages_RESID    IMAGE    "res\\preview_32.png" /* LargeImages ID_WTL_100_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_STANDARD_COLORPICKER_LabelTitle_RESID L"color" /* LabelTitle ID_STANDARD_COLORPICKER_LabelTitle_RESID: (null) */
+END
+
+ID_STANDARD_COLORPICKER_LargeImages_RESID    IMAGE    "res\\color_32.png" /* LargeImages ID_STANDARD_COLORPICKER_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_WTL_MENU_TEXT_LabelTitle_RESID L"text" /* LabelTitle ID_WTL_MENU_TEXT_LabelTitle_RESID: (null) */
+END
+
+ID_WTL_MENU_TEXT_LargeImages_RESID    IMAGE    "res\\t.png" /* LargeImages ID_WTL_MENU_TEXT_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_WTL_STOP_TEXT_LabelTitle_RESID L"stop" /* LabelTitle ID_WTL_STOP_TEXT_LabelTitle_RESID: (null) */
+END
+
+ID_WTL_STOP_TEXT_LargeImages_RESID    IMAGE    "res\\o.png" /* LargeImages ID_WTL_STOP_TEXT_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_WTL_MENU_COPY_LabelTitle_RESID L"copy" /* LabelTitle ID_WTL_MENU_COPY_LabelTitle_RESID: (null) */
+END
+
+ID_WTL_MENU_COPY_LargeImages_RESID    IMAGE    "res\\copy.png" /* LargeImages ID_WTL_MENU_COPY_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_WTL_MENU_PASTE_LabelTitle_RESID L"paste" /* LabelTitle ID_WTL_MENU_PASTE_LabelTitle_RESID: (null) */
+END
+
+ID_WTL_MENU_PASTE_LargeImages_RESID    IMAGE    "res\\paste.png" /* LargeImages ID_WTL_MENU_PASTE_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_WTL_STOP_PEN_LabelTitle_RESID L"stop" /* LabelTitle ID_WTL_STOP_PEN_LabelTitle_RESID: (null) */
+END
+
+ID_WTL_STOP_PEN_LargeImages_RESID    IMAGE    "res\\o.png" /* LargeImages ID_WTL_STOP_PEN_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_WTL_MENU_LAYER_LabelTitle_RESID L"layer" /* LabelTitle ID_WTL_MENU_LAYER_LabelTitle_RESID: (null) */
+END
+
+ID_WTL_MENU_LAYER_LargeImages_RESID    IMAGE    "res\\layer.png" /* LargeImages ID_WTL_MENU_LAYER_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_WTL_STOP_LAYER_LabelTitle_RESID L"stop" /* LabelTitle ID_WTL_STOP_LAYER_LabelTitle_RESID: (null) */
+END
+
+ID_WTL_STOP_LAYER_LargeImages_RESID    IMAGE    "res\\o.png" /* LargeImages ID_WTL_STOP_LAYER_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_WTL_OPEN_LAYER_FILE_LabelTitle_RESID L"pic" /* LabelTitle ID_WTL_OPEN_LAYER_FILE_LabelTitle_RESID: (null) */
+END
+
+ID_WTL_OPEN_LAYER_FILE_LargeImages_RESID    IMAGE    "res\\open_32.png" /* LargeImages ID_WTL_OPEN_LAYER_FILE_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    flipVertical_LabelTitle_RESID L"verical" /* LabelTitle flipVertical_LabelTitle_RESID: (null) */
+END
+
+flipVertical_LargeImages_RESID    IMAGE    "res\\vflip_32.png" /* LargeImages flipVertical_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_WTL_B_LabelTitle_RESID L"\x4e2d\x6587" /* LabelTitle ID_WTL_B_LabelTitle_RESID: (null) */
+END
+
+ID_WTL_B_LargeImages_RESID    IMAGE    "res\\book.png" /* LargeImages ID_WTL_B_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_WTL_MENU_NEW_LabelTitle_RESID L"new" /* LabelTitle ID_WTL_MENU_NEW_LabelTitle_RESID: (null) */
+END
+
+ID_WTL_MENU_NEW_LargeImages_RESID    IMAGE    "res\\new.png" /* LargeImages ID_WTL_MENU_NEW_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_WTL_RESIZE_IMAGE_LabelTitle_RESID L"resize" /* LabelTitle ID_WTL_RESIZE_IMAGE_LabelTitle_RESID: (null) */
+END
+
+ID_WTL_RESIZE_IMAGE_LargeImages_RESID    IMAGE    "res\\size-2.png" /* LargeImages ID_WTL_RESIZE_IMAGE_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_WTL_T_LabelTitle_RESID L"center text" /* LabelTitle ID_WTL_T_LabelTitle_RESID: (null) */
+END
+
+ID_WTL_T_LargeImages_RESID    IMAGE    "res\\t.png" /* LargeImages ID_WTL_T_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    flipHorizontal_LabelTitle_RESID L"horizontal" /* LabelTitle flipHorizontal_LabelTitle_RESID: (null) */
+END
+
+flipHorizontal_LargeImages_RESID    IMAGE    "res\\hflip_32.png" /* LargeImages flipHorizontal_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    layer_rotate90Clockwise_LabelTitle_RESID L"90\x5ea6 CW" /* LabelTitle layer_rotate90Clockwise_LabelTitle_RESID: (null) */
+END
+
+layer_rotate90Clockwise_LargeImages_RESID    IMAGE    "res\\rotate_right90_32.png" /* LargeImages layer_rotate90Clockwise_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    layer_rotate90CounterClockwise_LabelTitle_RESID L"90\x5ea6 CCW" /* LabelTitle layer_rotate90CounterClockwise_LabelTitle_RESID: (null) */
+END
+
+layer_rotate90CounterClockwise_LargeImages_RESID    IMAGE    "res\\rotate_left90_32.png" /* LargeImages layer_rotate90CounterClockwise_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    layer_flipVertical_LabelTitle_RESID L"verical" /* LabelTitle layer_flipVertical_LabelTitle_RESID: (null) */
+END
+
+layer_flipVertical_LargeImages_RESID    IMAGE    "res\\vflip_32.png" /* LargeImages layer_flipVertical_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    layer_flipHorizontal_LabelTitle_RESID L"horizontal" /* LabelTitle layer_flipHorizontal_LabelTitle_RESID: (null) */
+END
+
+layer_flipHorizontal_LargeImages_RESID    IMAGE    "res\\hflip_32.png" /* LargeImages layer_flipHorizontal_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    layer_rotateButton_LabelTitle_RESID L"rotate" /* LabelTitle layer_rotateButton_LabelTitle_RESID: (null) */
+END
+
+layer_rotateButton_LargeImages_RESID    IMAGE    "res\\circle.png" /* LargeImages layer_rotateButton_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_WTL_F_LabelTitle_RESID L"text" /* LabelTitle ID_WTL_F_LabelTitle_RESID: (null) */
+END
+
+ID_WTL_F_LargeImages_RESID    IMAGE    "res\\f.png" /* LargeImages ID_WTL_F_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_WTL_R_LabelTitle_RESID L"right text" /* LabelTitle ID_WTL_R_LabelTitle_RESID: (null) */
+END
+
+ID_WTL_R_LargeImages_RESID    IMAGE    "res\\r.png" /* LargeImages ID_WTL_R_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_WTL_FITIN_LabelTitle_RESID L"fit in" /* LabelTitle ID_WTL_FITIN_LabelTitle_RESID: (null) */
+END
+
+ID_WTL_FITIN_LargeImages_RESID    IMAGE    "res\\fitin.png" /* LargeImages ID_WTL_FITIN_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    IDC_WTL_ROTATE_RIGHT_LabelTitle_RESID L"rotate right" /* LabelTitle IDC_WTL_ROTATE_RIGHT_LabelTitle_RESID: (null) */
+END
+
+IDC_WTL_ROTATE_RIGHT_LargeImages_RESID    IMAGE    "res\\hflip_32.png" /* LargeImages IDC_WTL_ROTATE_RIGHT_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_ANNO_FILE_OPEN_LabelTitle_RESID L"open" /* LabelTitle ID_ANNO_FILE_OPEN_LabelTitle_RESID: (null) */
+END
+
+ID_ANNO_FILE_OPEN_LargeImages_RESID    IMAGE    "res\\open-file.png" /* LargeImages ID_ANNO_FILE_OPEN_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_ANNO_FILE_SAVE_LabelTitle_RESID L"save" /* LabelTitle ID_ANNO_FILE_SAVE_LabelTitle_RESID: (null) */
+END
+
+ID_ANNO_FILE_SAVE_LargeImages_RESID    IMAGE    "res\\save_32.png" /* LargeImages ID_ANNO_FILE_SAVE_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_ANNO_FILE_SAVE_AS_LabelTitle_RESID L"save a copy as" /* LabelTitle ID_ANNO_FILE_SAVE_AS_LabelTitle_RESID: (null) */
+END
+
+ID_ANNO_FILE_SAVE_AS_LargeImages_RESID    IMAGE    "res\\saveas_32.png" /* LargeImages ID_ANNO_FILE_SAVE_AS_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_ANNO_FILE_EXIT_LabelTitle_RESID L"exit" /* LabelTitle ID_ANNO_FILE_EXIT_LabelTitle_RESID: (null) */
+END
+
+ID_ANNO_FILE_EXIT_LargeImages_RESID    IMAGE    "res\\exit_32.png" /* LargeImages ID_ANNO_FILE_EXIT_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_BUTTON_UNDO_LabelTitle_RESID L"Undo" /* LabelTitle ID_BUTTON_UNDO_LabelTitle_RESID: (null) */
+END
+
+ID_BUTTON_UNDO_LargeImages_RESID    IMAGE    "res\\undo_32.png" /* LargeImages ID_BUTTON_UNDO_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_BUTTON_REDO_LabelTitle_RESID L"Redo" /* LabelTitle ID_BUTTON_REDO_LabelTitle_RESID: (null) */
+END
+
+ID_BUTTON_REDO_LargeImages_RESID    IMAGE    "res\\redo_32.png" /* LargeImages ID_BUTTON_REDO_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_PICOPACITY_LabelTitle_RESID L"opacity:" /* LabelTitle ID_PICOPACITY_LabelTitle_RESID: (null) */
+END
+
+ID_PICOPACITY_SmallImages_RESID    IMAGE    "res\\charspace.png" /* SmallImages ID_PICOPACITY_SmallImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_CHAR_SPACE_LabelTitle_RESID L"char space:" /* LabelTitle ID_CHAR_SPACE_LabelTitle_RESID: (null) */
+END
+
+ID_CHAR_SPACE_SmallImages_RESID    IMAGE    "res\\charspace.png" /* SmallImages ID_CHAR_SPACE_SmallImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_LINE_SPACE_LabelTitle_RESID L"line space:" /* LabelTitle ID_LINE_SPACE_LabelTitle_RESID: (null) */
+END
+
+ID_LINE_SPACE_SmallImages_RESID    IMAGE    "res\\linespace.png" /* SmallImages ID_LINE_SPACE_SmallImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_CHAR_SIZE_LabelTitle_RESID L"font size:" /* LabelTitle ID_CHAR_SIZE_LabelTitle_RESID: (null) */
+END
+
+ID_CHAR_SIZE_SmallImages_RESID    IMAGE    "res\\charsize.png" /* SmallImages ID_CHAR_SIZE_SmallImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    IDC_WTL_MENU_COPY_TEXT_LabelTitle_RESID L"copy" /* LabelTitle IDC_WTL_MENU_COPY_TEXT_LabelTitle_RESID: (null) */
+END
+
+IDC_WTL_MENU_COPY_TEXT_LargeImages_RESID    IMAGE    "res\\copy.png" /* LargeImages IDC_WTL_MENU_COPY_TEXT_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    IDC_WTL_MENU_PASTE_TEXT_LabelTitle_RESID L"paste" /* LabelTitle IDC_WTL_MENU_PASTE_TEXT_LabelTitle_RESID: (null) */
+END
+
+IDC_WTL_MENU_PASTE_TEXT_LargeImages_RESID    IMAGE    "res\\paste.png" /* LargeImages IDC_WTL_MENU_PASTE_TEXT_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    IDC_WTL_MENU_CUT_TEXT_LabelTitle_RESID L"cut" /* LabelTitle IDC_WTL_MENU_CUT_TEXT_LabelTitle_RESID: (null) */
+END
+
+IDC_WTL_MENU_CUT_TEXT_LargeImages_RESID    IMAGE    "res\\cut.png" /* LargeImages IDC_WTL_MENU_CUT_TEXT_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    IDC_WTL_PIC_SIZE_BIGGER_LabelTitle_RESID L"bigger" /* LabelTitle IDC_WTL_PIC_SIZE_BIGGER_LabelTitle_RESID: (null) */
+END
+
+IDC_WTL_PIC_SIZE_BIGGER_LargeImages_RESID    IMAGE    "res\\size-bigger.png" /* LargeImages IDC_WTL_PIC_SIZE_BIGGER_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    IDC_WTL_PIC_SIZE_SMALLER_LabelTitle_RESID L"smaller" /* LabelTitle IDC_WTL_PIC_SIZE_SMALLER_LabelTitle_RESID: (null) */
+END
+
+IDC_WTL_PIC_SIZE_SMALLER_LargeImages_RESID    IMAGE    "res\\size-smaller.png" /* LargeImages IDC_WTL_PIC_SIZE_SMALLER_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_WTL_ROTATE_30_LabelTitle_RESID L"rotate 30" /* LabelTitle ID_WTL_ROTATE_30_LabelTitle_RESID: (null) */
+END
+
+ID_WTL_ROTATE_30_LargeImages_RESID    IMAGE    "res\\rotate30.png" /* LargeImages ID_WTL_ROTATE_30_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_WTL_DELETE_LAYER_LabelTitle_RESID L"delete" /* LabelTitle ID_WTL_DELETE_LAYER_LabelTitle_RESID: (null) */
+END
+
+ID_WTL_DELETE_LAYER_LargeImages_RESID    IMAGE    "res\\delete.png" /* LargeImages ID_WTL_DELETE_LAYER_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_WTL_TRANSLATION_LAYER_LabelTitle_RESID L"past" /* LabelTitle ID_WTL_TRANSLATION_LAYER_LabelTitle_RESID: (null) */
+END
+
+ID_WTL_TRANSLATION_LAYER_LargeImages_RESID    IMAGE    "res\\translation.png" /* LargeImages ID_WTL_TRANSLATION_LAYER_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_WTL_FULLSCREEN_LabelTitle_RESID L"fullscreen" /* LabelTitle ID_WTL_FULLSCREEN_LabelTitle_RESID: (null) */
+END
+
+ID_WTL_FULLSCREEN_LargeImages_RESID    IMAGE    "res\\fullscreen.png" /* LargeImages ID_WTL_FULLSCREEN_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_WTL_PAUSE_LabelTitle_RESID L"pause" /* LabelTitle ID_WTL_PAUSE_LabelTitle_RESID: (null) */
+END
+
+ID_WTL_PAUSE_LargeImages_RESID    IMAGE    "res\\pause.png" /* LargeImages ID_WTL_PAUSE_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_WTL_ROLLUP_LabelTitle_RESID L"rollup" /* LabelTitle ID_WTL_ROLLUP_LabelTitle_RESID: (null) */
+END
+
+ID_WTL_ROLLUP_LargeImages_RESID    IMAGE    "res\\rollup.png" /* LargeImages ID_WTL_ROLLUP_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    rollupGroup_LabelTitle_RESID L"\x5411\x4e0a\x7ffb\x6eda" /* LabelTitle rollupGroup_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    ID_WTL_PUBLISH_LabelTitle_RESID L"publish" /* LabelTitle ID_WTL_PUBLISH_LabelTitle_RESID: (null) */
+END
+
+ID_WTL_PUBLISH_LargeImages_RESID    IMAGE    "res\\p.png" /* LargeImages ID_WTL_PUBLISH_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    publishGroup_LabelTitle_RESID L"\x8bfb\x5165\x6587\x4ef6" /* LabelTitle publishGroup_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    ID_WTL_WRITE_OPACITY_LabelTitle_RESID L"appear" /* LabelTitle ID_WTL_WRITE_OPACITY_LabelTitle_RESID: (null) */
+END
+
+ID_WTL_WRITE_OPACITY_LargeImages_RESID    IMAGE    "res\\write_a.png" /* LargeImages ID_WTL_WRITE_OPACITY_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_DURATION_LabelTitle_RESID L"duration:" /* LabelTitle ID_DURATION_LabelTitle_RESID: (null) */
+END
+
+ID_DURATION_SmallImages_RESID    IMAGE    "res\\charspace.png" /* SmallImages ID_DURATION_SmallImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_WTL_WRITE_PUNCH_LabelTitle_RESID L"punch" /* LabelTitle ID_WTL_WRITE_PUNCH_LabelTitle_RESID: (null) */
+END
+
+ID_WTL_WRITE_PUNCH_LargeImages_RESID    IMAGE    "res\\write_p.png" /* LargeImages ID_WTL_WRITE_PUNCH_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_WTL_OPEN_PICS_FILE_LabelTitle_RESID L"pics" /* LabelTitle ID_WTL_OPEN_PICS_FILE_LabelTitle_RESID: (null) */
+END
+
+ID_WTL_OPEN_PICS_FILE_SmallImages_RESID    IMAGE    "res\\open_32.png" /* SmallImages ID_WTL_OPEN_PICS_FILE_SmallImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_LOCATE_PICS_LabelTitle_RESID L"locate pics" /* LabelTitle ID_LOCATE_PICS_LabelTitle_RESID: (null) */
+END
+
+ID_LOCATE_PICS_SmallImages_RESID    IMAGE    "res\\locate.png" /* SmallImages ID_LOCATE_PICS_SmallImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    picsGroup_LabelTitle_RESID L"\x56fe\x7247\x4e32" /* LabelTitle picsGroup_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    lyrGroup_LabelTitle_RESID L"\x5355\x56fe\x7247" /* LabelTitle lyrGroup_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    ID_WTL_SHOW_PICS_LabelTitle_RESID L"show pics" /* LabelTitle ID_WTL_SHOW_PICS_LabelTitle_RESID: (null) */
+END
+
+ID_WTL_SHOW_PICS_LargeImages_RESID    IMAGE    "res\\box.png" /* LargeImages ID_WTL_SHOW_PICS_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_WTL_DRAW_POINT_LabelTitle_RESID L"draw point" /* LabelTitle ID_WTL_DRAW_POINT_LabelTitle_RESID: (null) */
+END
+
+ID_WTL_DRAW_POINT_LargeImages_RESID    IMAGE    "res\\draw-point.png" /* LargeImages ID_WTL_DRAW_POINT_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    groupPicAnim_LabelTitle_RESID L"\x56fe\x7247\x52a8\x753b" /* LabelTitle groupPicAnim_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    groupTextAnim_LabelTitle_RESID L"\x6587\x5b57\x52a8\x753b" /* LabelTitle groupTextAnim_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    groupPointAnim_LabelTitle_RESID L"\x6e32\x67d3\x52a8\x753b" /* LabelTitle groupPointAnim_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    groupQuitAnim_LabelTitle_RESID L"\x52a8\x753b\x9000\x51fa" /* LabelTitle groupQuitAnim_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    ID_WTL_DRAW_SCROLL_LabelTitle_RESID L"draw scroll" /* LabelTitle ID_WTL_DRAW_SCROLL_LabelTitle_RESID: (null) */
+END
+
+ID_WTL_DRAW_SCROLL_LargeImages_RESID    IMAGE    "res\\draw-scroll.png" /* LargeImages ID_WTL_DRAW_SCROLL_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_WTL_WRITE_WAVE_LabelTitle_RESID L"write wave" /* LabelTitle ID_WTL_WRITE_WAVE_LabelTitle_RESID: (null) */
+END
+
+ID_WTL_WRITE_WAVE_LargeImages_RESID    IMAGE    "res\\write_wave.png" /* LargeImages ID_WTL_WRITE_WAVE_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_LAYERS_LabelTitle_RESID L"layers" /* LabelTitle ID_LAYERS_LabelTitle_RESID: (null) */
+END
+
+ID_LAYERS_LargeImages_RESID    IMAGE    "res\\layers.png" /* LargeImages ID_LAYERS_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_VSCROLL_LabelTitle_RESID L"vscroll" /* LabelTitle ID_VSCROLL_LabelTitle_RESID: (null) */
+END
+
+ID_VSCROLL_LargeImages_RESID    IMAGE    "res\\draw-vscroll.png" /* LargeImages ID_VSCROLL_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_LOCATE_SVG_LabelTitle_RESID L"locate svg" /* LabelTitle ID_LOCATE_SVG_LabelTitle_RESID: (null) */
+END
+
+ID_LOCATE_SVG_SmallImages_RESID    IMAGE    "res\\locate.png" /* SmallImages ID_LOCATE_SVG_SmallImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_OPEN_SVG_LabelTitle_RESID L"open svg" /* LabelTitle ID_OPEN_SVG_LabelTitle_RESID: (null) */
+END
+
+ID_OPEN_SVG_SmallImages_RESID    IMAGE    "res\\open_32.png" /* SmallImages ID_OPEN_SVG_SmallImages_RESID: (null) */
+APPLICATION_RIBBON    UIFILE    "Ribbon.bml"
